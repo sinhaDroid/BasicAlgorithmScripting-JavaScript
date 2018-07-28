@@ -4,7 +4,7 @@
 
 function titleCase(str) {
     var convertToArray = str.toLowerCase().split(' ');
-    var updatedTitle = convertToArray.map(function(val) {
+    var updatedTitle = convertToArray.map(function (val) {
         return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
     });
     return updatedTitle.join(' ');

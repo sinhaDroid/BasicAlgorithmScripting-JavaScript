@@ -7,7 +7,7 @@ function titleCase(str) {
     for (let index = 0; index < str.length; index++) {
         str[index] = str[index].toLowerCase().split('');
         str[index][0] = str[index][0].toUpperCase();
-        str[index] = str[index].join(''); 
+        str[index] = str[index].join('');
     }
     return str.join(' ');
 }
