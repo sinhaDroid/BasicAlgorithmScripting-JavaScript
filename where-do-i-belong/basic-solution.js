@@ -22,3 +22,6 @@ console.log(getIndexToIns([20, 3, 5], 19));
 console.log(getIndexToIns([20, 3, 5], 19));
 
 // Solution
+// 1
+// 2
+// 2
